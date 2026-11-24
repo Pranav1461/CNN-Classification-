@@ -10,9 +10,6 @@ __pycache__/
 models/mnist_model.keras
 models/history.npy
 
-# results (generated files)
-results/
-
 # OS junk
 .DS_Store
 Thumbs.db
