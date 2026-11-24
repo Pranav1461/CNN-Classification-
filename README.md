@@ -79,6 +79,7 @@ B:\ML\
 ├── preprocessing.py     ← data loading, normalization, augmentation
 ├── requirements.txt     ← pip dependencies
 ├── README.md            ← you're reading this
+├── REPORT.md            ← detailed evaluation report with plots & confusion matrix
 ├── models/
 │   ├── mnist_model.keras    ← saved trained model
 │   └── history.npy          ← training history for plotting
@@ -156,6 +157,8 @@ There are two tabs:
 The model is evaluated using accuracy, precision, recall, and F1-score (all weighted). There's also a full per-class classification report and a confusion matrix heatmap so you can see which digits it confuses with each other.
 
 All metrics come from actual model predictions on the test set — nothing is hardcoded.
+
+👉 Check out [REPORT.md](REPORT.md) to see the full breakdown with the embedded training curves and confusion matrix heatmap.
 
 
 ## Things to note
