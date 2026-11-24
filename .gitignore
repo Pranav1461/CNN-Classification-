@@ -1,0 +1,22 @@
+# virtual environment
+venv/
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# trained model (too big for git)
+models/mnist_model.keras
+models/history.npy
+
+# results (generated files)
+results/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
